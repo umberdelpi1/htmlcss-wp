@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: helvetica; 
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
 }
 
 
@@ -54,7 +54,7 @@ main::after {
   background-color: white;
   margin: 20px;
   /* debug rules */
-  margin: 0 10px 10px
+  margin: 0 10px 10px;
   /* end debug rules */
 
 }
@@ -87,9 +87,15 @@ li b {
   padding: 10%;
   text-align: center;
   font-family: 'Montserrat';
+}
+
+h2 {
+  padding: 20px;
+}
 
 
-  /* end debug rules */
+.datablog {
+  padding: 10px;
 }
 
 
@@ -98,11 +104,42 @@ li b {
 /* SEZIONE WIDGETS RIGHT */
 .right {
     /* debug rules */
-  background-color: blue;
+
   height: 200px;
   /* end debug rules */
   float: left;
   width: 25%;
+}
+
+.widgetright {
+  background-color: white;
+  margin: 0 10px 10px;
+  height: auto;
+}
+input {
+  height: 40px;
+  width: 210px;
+  font-size: 15pt;
+  padding: 10px;
+  margin: 6px;
+}
+input, button {
+  display: inline-block;
+}
+
+button {
+  height: 30px;
+  width: 50px;
+  border-radius: 30%;
+}
+
+.widgetright p {
+  padding: 15px;
+  color: rgb(62, 156, 33);
+}
+
+div.widgetright a {
+font-size: 22pt;
 }
 
 
