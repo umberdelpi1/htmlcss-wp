@@ -83,10 +83,10 @@ li b {
 .blog {
   /* debug rules */
   background-color: white;
-  height: 500px;
+  height: 1000px;
   padding: 10%;
   text-align: center;
-  font-family: 'Montserrat';
+
 }
 
 h2 {
@@ -94,8 +94,11 @@ h2 {
 }
 
 
-.datablog {
-  padding: 10px;
+
+img {
+  height: 300px;
+  width: 500px;
+  padding: 30px;
 }
 
 
